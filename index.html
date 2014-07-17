@@ -1,0 +1,171 @@
+<!--
+This file is part of Storm Surge & Sea Level Rise
+Copyright 2014 RPS ASA
+All rights reserved.
+-->
+  <html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="js/leaflet.awesome-markers.css">
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.css" />
+
+    <script src="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.js"></script>
+    <script src="js/leaflet.awesome-markers.js"></script>
+
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src="holder/holder.js"></script>
+    <title>Storm Surge & Sea Level Rise</title>
+    
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
+    <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+        
+    <!--
+      add the storm surge css code 
+    -->
+	  <link href="css/ss.css" rel="stylesheet" type="text/css">
+
+    </head>
+	  <body>
+
+    <div class="jumbotron" id = "jumbo"  style="left:15px;width:1215px;" >
+     <div style="margin-left:10px">
+        <h1>Storm Surge & Sea Level Rise</h1>
+        <p>Illustrating the influence of sea level rise on storm surge impact in New Bedford, Acushnet, and Fairhaven, MA</p>
+        <p><a class="btn btn-primary btn-lg" role="button" href="http://climate.buzzardsbay.org/new-bedford-climate-adaptation.html">Learn more &raquo;</a></p>
+     </div>
+    </div>
+
+    <div class="container">  
+    <div id="tooltip" class="tooltipMenu" style="white-space:pre-wrap;position:absolute;z-index:2;width:250px;visibility:hidden">
+    </div>
+    
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    
+
+       <div class="row">
+    <div id ="radioControlsContainer" class="" style="width:270px;margin-top:0px;margin-left:0px; position:absolute; left:15px;">
+      <div class="panel panel-info">
+          <div class="panel-heading">
+            <div class="panel-title panelheader" id="radioPanelHelp">
+              <span class="glyphicon glyphicon-question-sign"></span>
+              <h4 style="position:absolute;top:0px;left:50px"class="title" >Hurricane Parameters</h4>
+            </div>                
+          </div>        
+          <div class="panel-body" id='radioOptions'>
+          </div>
+      </div>
+    </div>  
+    
+    <div id ="piechartpanel" class="" style="position:absolute;width:380px;left:310px;">
+      <div class="panel panel-info">
+          <div class="panel-heading">            
+            <div class="panel-title panelheader" id="pieChartPanelHelp">
+              <span class="glyphicon glyphicon-question-sign"></span>
+              <h4 style="position:absolute;top:0px;left:50px"class="title" >Damage Predictions</h4>
+            </div>
+          </div>        
+          <div class="panel-body" id='pie-plot' style="height:310px">
+             <div id='piechartTotalDiv' style="position:absolute;">
+            </div>
+            <div id='piechartLegend'style="margin-left:56%;">
+            </div>
+          </div>
+      </div>
+    </div>     
+
+    <div id ="mappanel" class="" style="width:519px;position:absolute;left:705px;">
+      <div class="panel panel-info">
+          <div class="panel-heading">
+            <div class="panel-title panelheader" id="mapPanelHelp">
+              <span class="glyphicon glyphicon-question-sign"></span>
+              <h4 style="position:absolute;top:0px;left:50px"class="title" >Inundation Extents</h4>
+            </div>
+          </div>        
+          <div class="panel-body" id='map' style="position:absolute; width: 518px; height: 310px; border: 1px solid #ccc;">           
+          </div>
+      </div>
+    </div>  
+   </div>        
+
+<div class="row" >
+  <div id ="floodFanContainer"style="position:absolute; width: 1210px; top:600px;left:15px;">
+    <div class="panel panel-info" >
+      <div class="panel-heading">
+        <div class="panel-title panelheader" id="floodFanPanelHelp">
+            <span class="glyphicon glyphicon-question-sign"></span>
+            <h4 style="position:absolute;top:0px;left:50px"class="title" >Flood Fans</h4>
+        </div>
+        <div style="height:15px;">         
+        <div id='floodFanLegend'style="position:absolute;top:5px;height:50px;left:12%;"></div>
+        <!-- T = Forward Speed   -->
+        <h3 id="floodFanTitle" class="" style="position:absolute;top:0px;left:50%">T = 50, Category 4 (80mb)</h3>   
+       </div>
+      </div>
+      <div class="panel-body">
+        <div class="row">
+        <div class="col-xs-6 col-md-3" style="width:270px">
+          <a class="thumbnail floodFan" style="height:200px;width:260px">
+            <p align="center"> 0ft sea level rise</p>
+            <div id="floodFan0"></div>             
+          </a>
+        </div>
+        <div class="col-xs-6 col-md-3" style="width:270px">
+          <a class="thumbnail floodFan" style="height:200px;width:260px">
+            <p align="center"> 1ft sea level rise</p>
+            <div id="floodFan1"></div>             
+          </a>
+        </div>
+        <div class="col-xs-6 col-md-3" style="width:270px">
+          <a class="thumbnail floodFan" style="height:200px;width:260px">
+            <p align="center"> 2ft sea level rise</p>
+            <div id="floodFan2"></div> 
+          </a>
+        </div>
+        <div class="col-xs-6 col-md-3" style="width:270px">
+          <a class="thumbnail floodFan" style="height:200px;width:260px">
+            <p align="center"> 4ft sea level rise</p>
+            <div id="floodFan3"></div>              
+          </a>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+  <div id ="exceedpanel" class="" style="left:15px;position:absolute;top:930px;">
+    <div class="panel panel-info">
+        <div class="panel-heading">          
+          <h3 id="exceedPanelHelp" class="panel-title panelheader"><span class="glyphicon glyphicon-question-sign"></span> Annual Exceedance Probability Curve (Newport, RI): </h3>
+        </div>        
+        <div class="panel-body" id='return-scatter-plot' style=""></div>           
+    </div>
+  </div>
+
+  <div class="footer" style="left:2%;position:absolute;top:1200px">
+        <p>&copy; RPS-ASA | Applied Science Associates 2014</p>
+  </div>  
+
+</div>  
+
+    <script type="text/javascript" src="js/createRadioList.js"></script>
+    <script type="text/javascript" src="js/content.js"></script>
+    <script type="text/javascript" src="js/gradientLegend.js"></script>
+    <script type="text/javascript" src="js/floodFan.js"></script>
+    <script type="text/javascript" src="js/simplePie.js"></script>
+    <script type="text/javascript" src="js/return_period_plot.js"></script>
+    <script type="text/javascript" src="js/linearRegression.js"></script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/slosh.js"></script>   
+    <script>
+      createContent()
+    </script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

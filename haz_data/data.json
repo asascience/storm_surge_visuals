@@ -1,0 +1,522 @@
+{
+   "60mb_4":{
+      "Total":{
+         "Industrial":{
+            "Total Economic Damage":"409663"
+         },
+         "Government":{
+            "Total Economic Damage":"8162"
+         },
+         "Residential":{
+            "Total Economic Damage":"1036053"
+         },
+         "Commercial":{
+            "Total Economic Damage":"685773"
+         },
+         "Religious/Non-Profit":{
+            "Total Economic Damage":"33172"
+         },
+         "total_ec":2198888.0,
+         "Education":{
+            "Total Economic Damage":"12513"
+         },
+         "Agriculture":{
+            "Total Economic Damage":"13552"
+         }
+      }
+   },
+   "90mb_1":{
+      "Total":{
+         "Industrial":{
+            "Total Economic Damage":"480248"
+         },
+         "Government":{
+            "Total Economic Damage":"10469"
+         },
+         "Residential":{
+            "Total Economic Damage":"1419552"
+         },
+         "Commercial":{
+            "Total Economic Damage":"852300"
+         },
+         "Religious/Non-Profit":{
+            "Total Economic Damage":"45724"
+         },
+         "total_ec":2843913.0,
+         "Education":{
+            "Total Economic Damage":"17950"
+         },
+         "Agriculture":{
+            "Total Economic Damage":"17670"
+         }
+      }
+   },
+   "90mb_2":{
+      "Total":{
+         "Industrial":{
+            "Total Economic Damage":"491575"
+         },
+         "Government":{
+            "Total Economic Damage":"10793"
+         },
+         "Residential":{
+            "Total Economic Damage":"1467315"
+         },
+         "Commercial":{
+            "Total Economic Damage":"871635"
+         },
+         "Religious/Non-Profit":{
+            "Total Economic Damage":"47790"
+         },
+         "total_ec":2926326.0,
+         "Education":{
+            "Total Economic Damage":"18986"
+         },
+         "Agriculture":{
+            "Total Economic Damage":"18232"
+         }
+      }
+   },
+   "60mb_1":{
+      "Total":{
+         "Industrial":{
+            "Total Economic Damage":"134631"
+         },
+         "Government":{
+            "Total Economic Damage":"2407"
+         },
+         "Residential":{
+            "Total Economic Damage":"424908"
+         },
+         "Commercial":{
+            "Total Economic Damage":"289893"
+         },
+         "Religious/Non-Profit":{
+            "Total Economic Damage":"10483"
+         },
+         "total_ec":873337.0,
+         "Education":{
+            "Total Economic Damage":"4394"
+         },
+         "Agriculture":{
+            "Total Economic Damage":"6621"
+         }
+      }
+   },
+   "60mb_2":{
+      "Total":{
+         "Industrial":{
+            "Total Economic Damage":"369319"
+         },
+         "Government":{
+            "Total Economic Damage":"6851"
+         },
+         "Residential":{
+            "Total Economic Damage":"835290"
+         },
+         "Commercial":{
+            "Total Economic Damage":"578117"
+         },
+         "Religious/Non-Profit":{
+            "Total Economic Damage":"27330"
+         },
+         "total_ec":1837922.0,
+         "Education":{
+            "Total Economic Damage":"9502"
+         },
+         "Agriculture":{
+            "Total Economic Damage":"11513"
+         }
+      }
+   },
+   "40mb_2":{
+      "Total":{
+         "Industrial":{
+            "Total Economic Damage":"10049"
+         },
+         "Government":{
+            "Total Economic Damage":"275"
+         },
+         "Residential":{
+            "Total Economic Damage":"102308"
+         },
+         "Commercial":{
+            "Total Economic Damage":"15344"
+         },
+         "Religious/Non-Profit":{
+            "Total Economic Damage":"1064"
+         },
+         "total_ec":132791.0,
+         "Education":{
+            "Total Economic Damage":"419"
+         },
+         "Agriculture":{
+            "Total Economic Damage":"3332"
+         }
+      }
+   },
+   "90mb_noslr":{
+      "Total":{
+         "Industrial":{
+            "Total Economic Damage":"466080"
+         },
+         "Government":{
+            "Total Economic Damage":"10120"
+         },
+         "Residential":{
+            "Total Economic Damage":"1362765"
+         },
+         "Commercial":{
+            "Total Economic Damage":"828787"
+         },
+         "Religious/Non-Profit":{
+            "Total Economic Damage":"43543"
+         },
+         "total_ec":2745246.0,
+         "Education":{
+            "Total Economic Damage":"17022"
+         },
+         "Agriculture":{
+            "Total Economic Damage":"16929"
+         }
+      }
+   },
+   "40mb_1":{
+      "Total":{
+         "Industrial":{
+            "Total Economic Damage":"8162"
+         },
+         "Government":{
+            "Total Economic Damage":"256"
+         },
+         "Residential":{
+            "Total Economic Damage":"90952"
+         },
+         "Commercial":{
+            "Total Economic Damage":"13570"
+         },
+         "Religious/Non-Profit":{
+            "Total Economic Damage":"884"
+         },
+         "total_ec":117230.0,
+         "Education":{
+            "Total Economic Damage":"353"
+         },
+         "Agriculture":{
+            "Total Economic Damage":"3053"
+         }
+      }
+   },
+   "20mb_noslr":{
+      "Total":{
+         "Industrial":{
+            "Total Economic Damage":"2029"
+         },
+         "Government":{
+            "Total Economic Damage":"113"
+         },
+         "Residential":{
+            "Total Economic Damage":"26129"
+         },
+         "Commercial":{
+            "Total Economic Damage":"4289"
+         },
+         "Religious/Non-Profit":{
+            "Total Economic Damage":"335"
+         },
+         "total_ec":34182.0,
+         "Education":{
+            "Total Economic Damage":"68"
+         },
+         "Agriculture":{
+            "Total Economic Damage":"1219"
+         }
+      }
+   },
+   "40mb_4":{
+      "Total":{
+         "Industrial":{
+            "Total Economic Damage":"106276"
+         },
+         "Government":{
+            "Total Economic Damage":"1904"
+         },
+         "Residential":{
+            "Total Economic Damage":"339705"
+         },
+         "Commercial":{
+            "Total Economic Damage":"236539"
+         },
+         "Religious/Non-Profit":{
+            "Total Economic Damage":"7549"
+         },
+         "total_ec":700659.0,
+         "Education":{
+            "Total Economic Damage":"3390"
+         },
+         "Agriculture":{
+            "Total Economic Damage":"5296"
+         }
+      }
+   },
+   "20mb_1":{
+      "Total":{
+         "Industrial":{
+            "Total Economic Damage":"2668"
+         },
+         "Government":{
+            "Total Economic Damage":"134"
+         },
+         "Residential":{
+            "Total Economic Damage":"34231"
+         },
+         "Commercial":{
+            "Total Economic Damage":"5469"
+         },
+         "Religious/Non-Profit":{
+            "Total Economic Damage":"395"
+         },
+         "total_ec":44472.0,
+         "Education":{
+            "Total Economic Damage":"101"
+         },
+         "Agriculture":{
+            "Total Economic Damage":"1474"
+         }
+      }
+   },
+   "20mb_2":{
+      "Total":{
+         "Industrial":{
+            "Total Economic Damage":"3268"
+         },
+         "Government":{
+            "Total Economic Damage":"159"
+         },
+         "Residential":{
+            "Total Economic Damage":"44708"
+         },
+         "Commercial":{
+            "Total Economic Damage":"6945"
+         },
+         "Religious/Non-Profit":{
+            "Total Economic Damage":"458"
+         },
+         "total_ec":57470.0,
+         "Education":{
+            "Total Economic Damage":"135"
+         },
+         "Agriculture":{
+            "Total Economic Damage":"1797"
+         }
+      }
+   },
+   "60mb_noslr":{
+      "Total":{
+         "Industrial":{
+            "Total Economic Damage":"86391"
+         },
+         "Government":{
+            "Total Economic Damage":"1437"
+         },
+         "Residential":{
+            "Total Economic Damage":"369317"
+         },
+         "Commercial":{
+            "Total Economic Damage":"226569"
+         },
+         "Religious/Non-Profit":{
+            "Total Economic Damage":"7101"
+         },
+         "total_ec":699464.0,
+         "Education":{
+            "Total Economic Damage":"3109"
+         },
+         "Agriculture":{
+            "Total Economic Damage":"5540"
+         }
+      }
+   },
+   "20mb_4":{
+      "Total":{
+         "Industrial":{
+            "Total Economic Damage":"5987"
+         },
+         "Government":{
+            "Total Economic Damage":"211"
+         },
+         "Residential":{
+            "Total Economic Damage":"73509"
+         },
+         "Commercial":{
+            "Total Economic Damage":"10977"
+         },
+         "Religious/Non-Profit":{
+            "Total Economic Damage":"643"
+         },
+         "total_ec":94073.0,
+         "Education":{
+            "Total Economic Damage":"267"
+         },
+         "Agriculture":{
+            "Total Economic Damage":"2479"
+         }
+      }
+   },
+   "90mb_4":{
+      "Total":{
+         "Industrial":{
+            "Total Economic Damage":"519664"
+         },
+         "Government":{
+            "Total Economic Damage":"11479"
+         },
+         "Residential":{
+            "Total Economic Damage":"1575842"
+         },
+         "Commercial":{
+            "Total Economic Damage":"921609"
+         },
+         "Religious/Non-Profit":{
+            "Total Economic Damage":"53219"
+         },
+         "total_ec":3121775.0,
+         "Education":{
+            "Total Economic Damage":"20833"
+         },
+         "Agriculture":{
+            "Total Economic Damage":"19129"
+         }
+      }
+   },
+   "80mb_noslr":{
+      "Total":{
+         "Industrial":{
+            "Total Economic Damage":"423849"
+         },
+         "Government":{
+            "Total Economic Damage":"8669"
+         },
+         "Residential":{
+            "Total Economic Damage":"1127545"
+         },
+         "Commercial":{
+            "Total Economic Damage":"719688"
+         },
+         "Religious/Non-Profit":{
+            "Total Economic Damage":"35449"
+         },
+         "total_ec":2343161.0,
+         "Education":{
+            "Total Economic Damage":"13641"
+         },
+         "Agriculture":{
+            "Total Economic Damage":"14320"
+         }
+      }
+   },
+   "40mb_noslr":{
+      "Total":{
+         "Industrial":{
+            "Total Economic Damage":"6891"
+         },
+         "Government":{
+            "Total Economic Damage":"233"
+         },
+         "Residential":{
+            "Total Economic Damage":"81429"
+         },
+         "Commercial":{
+            "Total Economic Damage":"12127"
+         },
+         "Religious/Non-Profit":{
+            "Total Economic Damage":"754"
+         },
+         "total_ec":104508.0,
+         "Education":{
+            "Total Economic Damage":"301"
+         },
+         "Agriculture":{
+            "Total Economic Damage":"2773"
+         }
+      }
+   },
+   "80mb_4":{
+      "Total":{
+         "Industrial":{
+            "Total Economic Damage":"509161"
+         },
+         "Government":{
+            "Total Economic Damage":"12429"
+         },
+         "Residential":{
+            "Total Economic Damage":"1677261"
+         },
+         "Commercial":{
+            "Total Economic Damage":"958682"
+         },
+         "Religious/Non-Profit":{
+            "Total Economic Damage":"56159"
+         },
+         "total_ec":3258342.0,
+         "Education":{
+            "Total Economic Damage":"24093"
+         },
+         "Agriculture":{
+            "Total Economic Damage":"20557"
+         }
+      }
+   },
+   "80mb_2":{
+      "Total":{
+         "Industrial":{
+            "Total Economic Damage":"448127"
+         },
+         "Government":{
+            "Total Economic Damage":"9447"
+         },
+         "Residential":{
+            "Total Economic Damage":"1263748"
+         },
+         "Commercial":{
+            "Total Economic Damage":"784441"
+         },
+         "Religious/Non-Profit":{
+            "Total Economic Damage":"39838"
+         },
+         "total_ec":2577012.0,
+         "Education":{
+            "Total Economic Damage":"15520"
+         },
+         "Agriculture":{
+            "Total Economic Damage":"15891"
+         }
+      }
+   },
+   "80mb_1":{
+      "Total":{
+         "Industrial":{
+            "Total Economic Damage":"436868"
+         },
+         "Government":{
+            "Total Economic Damage":"9075"
+         },
+         "Residential":{
+            "Total Economic Damage":"1203541"
+         },
+         "Commercial":{
+            "Total Economic Damage":"756070"
+         },
+         "Religious/Non-Profit":{
+            "Total Economic Damage":"37859"
+         },
+         "total_ec":2473230.0,
+         "Education":{
+            "Total Economic Damage":"14687"
+         },
+         "Agriculture":{
+            "Total Economic Damage":"15130"
+         }
+      }
+   }
+}
